@@ -1,18 +1,30 @@
 /* scrollama */
+
+*{
+  font-family: 'Gotham Rounded', "OpenSans", Helvetica, Arial, sans-serif;
+}
 html{
+    font-family: 'Gotham Rounded', "OpenSans", Helvetica, Arial, sans-serif;
   background: white;
   max-width: 100%;
   width:100%;
   overflow-x:hidden;
 }
+h1, .h1, h2, .h2, h3, .h3 {
+    font-family: 'Gotham Rounded', "OpenSans", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.5px;
+}
+p{
+  font-family: 'Gotham Rounded', "OpenSans", Helvetica, Arial, sans-serif;  
+}
 a{
-  color:#000000;
+  color:white;
 }
 a:hover {
-    color: #000000;
+    color: white;
 }
 a:visited, .btn-link:visited {
-    color: #000000;
+    color: white;
 }
     #scroll {
       position: relative;
@@ -187,14 +199,19 @@ a:visited, .btn-link:visited {
     .container.intro{
       position: absolute;
     }
-
+a:visited, .btn-link:visited {
+    color: white;
+}
     .step .pulso-intro{
-        background: #FFD200;
+        background: #07699D;
         padding: 2em;
+        color:white;
         /* margin-left: 1em; */
         margin-bottom: 10px;
         text-align: left;
 
+    }.step .pulso-intro p {
+      color:white;
     }
     .step .pulso-intro h1{
       font-size:4em;
@@ -207,11 +224,16 @@ a:visited, .btn-link:visited {
       text-align: center;
     }
     .step .pulso-footer { 
-        background: #FFD200;
+        background: #07699D;;
+        color:white;
         /* margin-left: 1em; */
         margin-bottom: 10px;
         text-align: left;
     }
+    .step .pulso-footer a{
+      color:white;
+    }
+
     .step .pulso-footer .row{
       margin: 0;
       padding:0;
@@ -225,6 +247,7 @@ a:visited, .btn-link:visited {
     }
     .step .pulso-footer p.no-bold{
       font-weight: 200;
+      color:white;
       text-align: center;
     }
     
