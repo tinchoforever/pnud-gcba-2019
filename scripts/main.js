@@ -164,10 +164,10 @@ var readyMap = function(){
   $('#secondTimelineScroll').hide();
   $('#publicosScroll').hide();
 
-initSVGMAP(readyMap);
-initBubbles();
-initBarChartPublico();
-initBaFechas();
+// initSVGMAP(readyMap);
+// initBubbles();
+// initBarChartPublico();
+// initBaFechas();
 init("#scroll");
 init("#disciplinasScroll");
 init("#timelineScroll");
