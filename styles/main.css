@@ -224,11 +224,15 @@ a:visited, .btn-link:visited {
       text-align: center;
     }
     .step .pulso-footer { 
-        background: #07699D;;
+        background: white;
         color:white;
         /* margin-left: 1em; */
         margin-bottom: 10px;
         text-align: left;
+    }
+    .step .pulso-footer img{ 
+      max-height: 90px;
+      width:auto;
     }
     .step .pulso-footer a{
       color:white;
