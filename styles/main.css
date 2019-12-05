@@ -440,6 +440,22 @@ svg .tick text {
 }
 
 @media only screen and (min-width: 820px) {
+   .step p {
+      text-align: left;
+        font-size: 1.2em;
+        font-weight: 400;
+            line-height: 20px;
+    }
+
+  div.gif{
+    text-align: center;
+  }
+  img.gif-ani{
+    width: 220px;
+  }
+  div.gif.two img.gif-ani{
+    width: 200px;
+  }
   svg text {
     font-family: "OpenSans", Helvetica, Arial, sans-serif;
     font-size: 14px;
