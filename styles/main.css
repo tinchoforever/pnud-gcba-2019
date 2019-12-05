@@ -189,6 +189,12 @@ video{
 img.gif-ani{
   width: 100%;
 }
+div.gif.two {
+  text-align: center;
+}
+div.gif.two img.gif-ani{
+    width: 44%;
+  }
 .step.is-active {
       
     }
