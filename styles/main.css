@@ -16,6 +16,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 p{
   font-family: 'Gotham Rounded', "OpenSans", Helvetica, Arial, sans-serif;  
+  font-weight: 100;
 }
 a{
   color:white;
@@ -179,7 +180,7 @@ a:visited, .btn-link:visited {
       background: #ffffffde;
       padding: 1em 1em 1em 1em;
       width: 100%;
-      border: solid 1px #adadad;
+      /*border: solid 1px #adadad;*/
     }
 
     .step-text h4 small{
@@ -202,21 +203,41 @@ a:visited, .btn-link:visited {
 a:visited, .btn-link:visited {
     color: white;
 }
-    .step .pulso-intro{
-        background: #07699D;
-        padding: 2em;
-        color:white;
-        /* margin-left: 1em; */
-        margin-bottom: 10px;
-        text-align: left;
+  .container, .container.intro {
+    position: absolute;
+}
 
-    }.step .pulso-intro p {
+.container {
+    margin-top: 10em;
+}
+.chart img, .container, .scroll__text, img {
+    max-width: 100%;
+}
+.container, .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container, .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    .step .pulso-intro{
+        text-align: center;
+        background: #07699D;
+        ;
+        color:white;
+        padding: 0.5em;
+        margin-bottom: 10px;
+
+    }
+    .step .pulso-intro p {
       color:white;
+      text-align: center;
     }
     .step .pulso-intro h1{
       font-size:4em;
-      text-align: left;
-      text-align: left;
+      text-align: center;
       border-bottom: solid 2px;
 
     }
