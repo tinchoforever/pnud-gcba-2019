@@ -72,6 +72,25 @@ a:visited, .btn-link:visited {
     }
       }
 
+      .step p {
+  color:white;
+  text-align: center;
+  font-size: 1.25rem;
+  letter-spacing: -0.2px;
+  line-height: 17px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+
+video{
+    width: 110%;
+    height: 110vh;
+    margin-top: -1em;
+    margin-left: -4px;
+}
+
+
+
+
     .scroll__graphic.is-fixed {
       position: fixed;
     }
@@ -206,7 +225,12 @@ a:visited, .btn-link:visited {
   .container, .container.intro {
     position: absolute;
 }
-
+.hide-m{
+  display: none !important;
+}
+.show-m{
+  display: block !important;
+}
 .container {
     margin-top: 10em;
 }
@@ -416,6 +440,13 @@ svg .tick text {
     font-weight: 400;
 
 }
+
+.hide-m{
+  display: block !important;
+}
+.show-m{
+  display: none !important;;
+}
   #bubbles-references{
     display: block;
   }
@@ -518,4 +549,14 @@ section#Final .container{
 
 .start{
   display: none;
+}
+
+
+    }
+
+.a-loader-title{
+  color: black;
+}
+.pulso-outro{
+  text-align: center;
 }
