@@ -90,7 +90,7 @@ function init(selector) {
   // generic window resize listener event
   function handleResize() {
     // 1. update height of step elements
-      var stepHeight = Math.floor(window.innerHeight * 0.75);
+      var stepHeight = Math.floor(window.innerHeight * 0.90);
       step.style('height', stepHeight + 'px');
 
 
