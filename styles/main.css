@@ -186,7 +186,9 @@ video{
   font-size: 1.5rem;
 }
 
-
+img.gif-ani{
+  width: 100%;
+}
 .step.is-active {
       
     }
