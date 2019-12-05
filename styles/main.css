@@ -605,3 +605,16 @@ section#Final .container{
 #svgFamiliasIcons, #svgFamiliasExtra, #svgPersonasIcons, #svgPersonasExtra {
   opacity: 0;
 }
+
+
+#mapa{
+  position: relative;
+  width: 1200px;
+  min-width: 1200px;
+  height: 848px;
+}
+#mapa img{
+  position: absolute;
+  top:0px;
+
+}

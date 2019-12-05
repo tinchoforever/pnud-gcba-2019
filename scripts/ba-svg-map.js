@@ -42,3 +42,42 @@ function transicionaMapa(step) {
 
 }
 
+var estadoactual = 1;
+
+function transicionaMapaImagen(step) {
+  
+  console.log(" aaaa ")
+  switch (step) {
+        case 1: // esto es el mapa con los lugares \
+      console.log(estadoactual, step);
+      d3.select("#img1").transition().duration(500).style("opacity", estadoactual > step ? 1:0);
+      break;
+
+    case 2: // esto es el mapa con los lugares al aire libre
+      d3.select("#img2").transition().duration(500).style("opacity", estadoactual > step ? 1 : 0);
+
+      break;
+
+
+    case 3:
+
+     // d3.select("#img3").transition().duration(500).attr("opacity", estadoactual > step ? 1 : 0);
+      break;
+
+
+
+    case 4:
+
+      break;
+
+    case 5:
+
+
+      break;
+
+
+  }
+  estadoactual = step;
+
+}
+
