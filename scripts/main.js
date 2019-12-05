@@ -159,10 +159,10 @@ var readyMap = function(){
 
 
 }
-  $('#disciplinasScroll').hide();
-  $('#timelineScroll').hide();
-  $('#secondTimelineScroll').hide();
-  $('#publicosScroll').hide();
+  // $('#disciplinasScroll').hide();
+  // $('#timelineScroll').hide();
+  // $('#secondTimelineScroll').hide();
+  // $('#publicosScroll').hide();
 
 // initSVGMAP(readyMap);
 // initBubbles();
@@ -170,6 +170,7 @@ var readyMap = function(){
 // initBaFechas();
 init("#scroll");
 init("#graphScroll");
+init("#mapeoScroll");
 init("#disciplinasScroll");
 init("#timelineScroll");
 
