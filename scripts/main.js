@@ -169,8 +169,10 @@ var readyMap = function(){
 // initBarChartPublico();
 // initBaFechas();
 init("#scroll");
+init("#graphScroll");
 init("#disciplinasScroll");
 init("#timelineScroll");
+
 
 
 
