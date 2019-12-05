@@ -186,7 +186,15 @@ video{
   font-size: 1.5rem;
 }
 
-
+img.gif-ani{
+  width: 100%;
+}
+div.gif.two {
+  text-align: center;
+}
+div.gif.two img.gif-ani{
+    width: 49%;
+  }
 .step.is-active {
       
     }
@@ -196,8 +204,8 @@ video{
     }
     .step p {
       text-align: left;
-        font-size: 0.95em;
-        line-height: normal;
+        font-size: 1.1em;
+            line-height: 20px;
     }
     .step-text{
       background: #ffffff;
@@ -264,7 +272,7 @@ a:visited, .btn-link:visited {
       text-align: center;
     }
     .step .pulso-intro h1{
-      font-size:4em;
+      font-size:3.5em;
       text-align: center;
       border-bottom: solid 2px;
 
@@ -438,6 +446,22 @@ svg .tick text {
 }
 
 @media only screen and (min-width: 820px) {
+   .step p {
+      text-align: left;
+        font-size: 1.2em;
+        font-weight: 400;
+            line-height: 20px;
+    }
+
+  div.gif{
+    text-align: center;
+  }
+  img.gif-ani{
+    width: 220px;
+  }
+  div.gif.two img.gif-ani{
+    width: 200px;
+  }
   svg text {
     font-family: "OpenSans", Helvetica, Arial, sans-serif;
     font-size: 14px;
