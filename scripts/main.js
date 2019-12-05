@@ -155,6 +155,11 @@ var readyMap = function(){
 // initBaFechas();
 init("#scroll");
 init("#mujeresScroll");
+init("#graphScroll");
+init("#disciplinasScroll");
+init("#timelineScroll");
+
+
 
 
 
