@@ -200,10 +200,11 @@ video{
         line-height: normal;
     }
     .step-text{
-      background: #ffffffde;
+      background: #ffffff;
       padding: 1em 1em 1em 1em;
       width: 100%;
       /*border: solid 1px #adadad;*/
+       box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
 
     .step-text h4 small{
@@ -569,4 +570,12 @@ section#Final .container{
 }
 .pulso-outro{
   text-align: center;
+}
+
+
+
+/* ****SVG******** */
+
+#svgFamiliasIcons, #svgFamiliasExtra, #svgPersonasIcons, #svgPersonasExtra {
+  opacity: 0;
 }
