@@ -509,6 +509,12 @@ svg .tick text {
 .container.outro .navbar-logo-gcba{
   /*width: 120px;*/
 }
+.container.outro a{
+ color: black;
+}
+.container.outro a:visited{
+ color: black;
+}
 .container.outro p{
   margin-top:20px;
   color:black;
