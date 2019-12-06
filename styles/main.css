@@ -518,7 +518,7 @@ svg .tick text {
 @media only screen and (min-width: 820px) {
   .navbar.sticky-side {
     position: fixed;
-    top: 10px;
+    top: 20px;
     padding: 12px;
     background-color: #fff;
     border-top-right-radius: 24px;
@@ -539,12 +539,12 @@ svg .tick text {
 .navbar .navbar-link .brand-logo, 
 .navbar .navbar-link .navbar-logo {
     width: auto;
-    height: 80px;
+    height: 20px;
     /*max-height: 24px;*/
 }
 nav#navbar-second{
     right: 0;
-    top: 10px;
+    top: 30px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 24px;
