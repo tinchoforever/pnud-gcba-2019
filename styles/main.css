@@ -530,7 +530,7 @@ svg .tick text {
 
 .navbar {
     overflow: hidden;
-    padding: 8px;
+    padding: 2px;
     z-index: 99;
 }
 .navbar .navbar-link {
@@ -539,7 +539,7 @@ svg .tick text {
 .navbar .navbar-link .brand-logo, 
 .navbar .navbar-link .navbar-logo {
     width: auto;
-    height: 20px;
+    height: 100px;
     /*max-height: 24px;*/
 }
 nav#navbar-second{
