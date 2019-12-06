@@ -361,13 +361,15 @@ a:visited, .btn-link:visited {
 
     .step .start-button {
         text-align: center;
-        background: white;
-        color:black;
-        margin:5em;
+        color:white;
     }
-    .step .start-button a{
-        color: black;
-        font-weight: 400;
+    .step .start-button p{
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: underline;
+
     }
     .chart img{
         max-width: 100%;

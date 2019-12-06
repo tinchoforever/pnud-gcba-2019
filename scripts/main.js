@@ -150,7 +150,7 @@ init("#mujeresScroll");
 init("#graphScroll");
 init("#mapeoScroll");
 init("#disciplinasScroll");
-init("#timelineScroll");
+
 
 new WOW().init();
 
