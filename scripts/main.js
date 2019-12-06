@@ -25,37 +25,22 @@ eventBus["stepMap7"] = function(){
   $('#scroll2 .scroll__graphic').show();
 }
 
-eventBus["stepBubbles2"] = function(){
-  bubblesToComunas();
-}
-eventBus["stepBubbles1"] = function(){
-  bubblesToDisciplinas();
-}
-
-eventBus["stepBubbles0"] = function(){
-  bubblesToDisciplinas();
-}
 
 
-eventBus["stepPublico1"] = function(){
-  showMoreColums();
-}
-eventBus["stepPublico2"] = function(){
-  showMoreColums();
+eventBus["stepMapa01"] = function () {
+  transicionaMapaImagen(1);
 }
 
-eventBus["stepPublico3"] = function(){
-  originalMoreColums();
-  startSecondChart();
+eventBus["stepMapa02"] = function () {
+  transicionaMapaImagen(2);
 }
 
-eventBus["stepPublico4"] = function(){
-  updateSecondChart();
+eventBus["stepMapa03"] = function () {
+  transicionaMapaImagen(3);
 }
 
-eventBus["stepPublico5"] = function(){
-  updateSecondChart();
-}
+
+
 
 
 
@@ -105,7 +90,7 @@ function init(selector) {
   // generic window resize listener event
   function handleResize() {
     // 1. update height of step elements
-      var stepHeight = Math.floor(window.innerHeight * 0.75);
+      var stepHeight = Math.floor(window.innerHeight * 0.90);
       step.style('height', stepHeight + 'px');
 
 
@@ -169,10 +154,12 @@ var readyMap = function(){
 // initBarChartPublico();
 // initBaFechas();
 init("#scroll");
+init("#mujeresScroll");
 init("#graphScroll");
 init("#mapeoScroll");
 init("#disciplinasScroll");
 init("#timelineScroll");
+
 
 
 
