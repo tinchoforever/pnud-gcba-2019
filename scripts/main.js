@@ -144,15 +144,7 @@ var readyMap = function(){
 
 
 }
-  // $('#disciplinasScroll').hide();
-  // $('#timelineScroll').hide();
-  // $('#secondTimelineScroll').hide();
-  // $('#publicosScroll').hide();
 
-// initSVGMAP(readyMap);
-// initBubbles();
-// initBarChartPublico();
-// initBaFechas();
 init("#scroll");
 init("#mujeresScroll");
 init("#graphScroll");
@@ -160,7 +152,7 @@ init("#mapeoScroll");
 init("#disciplinasScroll");
 init("#timelineScroll");
 
-
+new WOW().init();
 
 
 
