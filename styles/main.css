@@ -503,12 +503,7 @@ svg .tick text {
     padding: 4em 1em;
     margin-bottom: 10px;
 }
-.container.outro .navbar-logo-pnud{
-  width: 50px;
-}
-.container.outro .navbar-logo-gcba{
-  /*width: 120px;*/
-}
+
 .container.outro a{
  color: black;
 }
@@ -525,6 +520,12 @@ svg .tick text {
     height: 100vh;
     width:auto;
   }
+  .container.outro .navbar-logo-pnud{
+  width: 100px;
+}
+.container.outro .navbar-logo-gcba{
+  width: 220px;
+}
    .step p {
       text-align: left;
         font-size: 1.2em;
