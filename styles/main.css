@@ -65,8 +65,8 @@ nav#navbar-second{
 
 nav#navbar-second  .navbar-link img.brand-logo, 
 nav#navbar-second  .navbar-link img.navbar-logo{
-  width: 120px;
-  height: auto;
+  /*width: 120px;*/
+  height: 20px;
       
 
 }
