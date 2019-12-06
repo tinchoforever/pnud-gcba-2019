@@ -718,5 +718,5 @@ section#Final .container{
 #mapa img{
   height: 100vh;
   width: auto;
-  max-width: 100%;
+  max-width: 2000px;
 }
