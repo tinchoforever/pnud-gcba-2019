@@ -495,6 +495,25 @@ svg .tick text {
     width: 100%;
     width:auto;
   }
+
+  .container.outro div.pulso-intro {
+    text-align: center;
+    background: white;
+    color: black;
+    padding: 4em 1em;
+    margin-bottom: 10px;
+}
+.container.outro .navbar-logo-pnud{
+  width: 50px;
+}
+.container.outro .navbar-logo-gcba{
+  /*width: 120px;*/
+}
+.container.outro p{
+  margin-top:20px;
+  color:black;
+}
+
 @media only screen and (min-width: 820px) {
   .diagnosticos img{
     height: 100vh;
@@ -513,6 +532,9 @@ svg .tick text {
     padding: 4em 1em;
     margin-bottom: 10px;
 }
+
+
+
   div.gif{
     text-align: center;
   }
