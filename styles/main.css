@@ -498,7 +498,13 @@ svg .tick text {
         font-weight: 400;
             line-height: 20px;
     }
-
+.step .pulso-intro {
+    text-align: center;
+    background: #07699db0;
+    color: white;
+    padding: 4em 1em;
+    margin-bottom: 10px;
+}
   div.gif{
     text-align: center;
   }
@@ -540,8 +546,13 @@ svg .tick text {
     margin-left:20px;
   }
  .container.intro {
-    margin: 16% 30%;
+    margin: 16% 34%;
 }
+.step .pulso-intro h1 {
+    font-size: 3.5em;
+    text-align: center;
+    border-bottom: solid 2px;
+    padding-bottom: 10px;
 
 .container, .container.intro {
     position: absolute;
@@ -654,13 +665,21 @@ section#Final .container{
 
 
 #mapa{
-  position: relative;
+/*  position: relative;
   width: 1200px;
   min-width: 1200px;
-  height: 848px;
+  height: 848px;*/
 }
 #mapa img{
   position: absolute;
   top:0px;
+  right:0;
 
+}
+
+
+#mapa img{
+  height: 100vh;
+  width: auto;
+  max-width: 100%;
 }
