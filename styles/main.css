@@ -516,6 +516,13 @@ svg .tick text {
 }
 
 @media only screen and (min-width: 820px) {
+  .minor-v{
+    padding-top: 6em;
+    padding-bottom: 3em;
+    padding-left: 10em;
+    padding-right: 5em;
+    width: 95%;
+  }
   .navbar.sticky-side {
     position: fixed;
     top: 20px;
